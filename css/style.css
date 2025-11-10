@@ -169,9 +169,11 @@ nav[aria-label="Primary"] a.is-active{
   color:var(--nav-active-fg);
   border-color:var(--nav-active-bd);
   outline:none;
+  text-transform: uppercase;
 }
 
 
 html{font-size:17px}
 body{line-height:1.7}
 @media (min-width:768px){ html{font-size:18px} }
+
